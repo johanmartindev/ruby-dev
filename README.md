@@ -14,4 +14,4 @@ Devcontainer configuration with a ready to run environment for VSCode
 
 ## Basic Rails API Application
 * Create a new Rails API application
-  * `rails new <app_name> --api`
+  * `rails new test-api --api`
