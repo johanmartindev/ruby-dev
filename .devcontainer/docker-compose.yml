@@ -6,7 +6,7 @@ services:
       dockerfile: .devcontainer/Dockerfile
       args:
         VARIANT: "3"
-        NODE_VERSION: "lts"
+        NODE_VERSION: "lts/*"
     volumes:
       - ..:/workspace:cached
       - vscode-extension-data:/vscode/.vscode-server/extensions
