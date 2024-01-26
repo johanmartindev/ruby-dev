@@ -15,7 +15,6 @@
         "aki77.rails-db-schema",
         "aki77.rails-i18n",
         "aki77.rails-routes",
-        "alexkrechik.cucumberautocomplete",
         "aliariff.auto-add-brackets",
         "aliariff.vscode-erb-beautify",
         "benspaulding.procfile",
@@ -23,14 +22,10 @@
         "castwide.solargraph",
         "christian-kohler.path-intellisense",
         "CraigMaslowski.erb",
-        "Dunn.redis",
         "EditorConfig.EditorConfig",
         "eriklynd.json-tools",
         "esbenp.prettier-vscode",
         "GauravSharma.colorized-access-modifier",
-        "GitHub.copilot-chat",
-        "GitHub.copilot",
-        "Gruntfuggly.todo-tree",
         "hbenl.vscode-test-explorer",
         "jemmyw.rails-fast-nav",
         "jnbt.vscode-rufo",
@@ -49,16 +44,13 @@
         "philiplambok.vscode-rails-docs",
         "qcz.text-power-tools",
         "redhat.vscode-yaml",
-        "ria.elastic",
         "sarahridge.vscode-rails-syntax",
         "shardulm94.trailing-spaces",
         "Shopify.ruby-lsp",
-        "sibiraj-s.vscode-scss-formatter",
         "streetsidesoftware.code-spell-checker",
         "tavo.rails-schema",
         "yaboojp.simple-rails-navigator",
-        "oderwat.indent-rainbow",
-        "jock.svg"
+        "oderwat.indent-rainbow"
       ],
       "settings": {
         "emmet.includeLanguages": {
@@ -66,11 +58,11 @@
         },
         "emmet.showAbbreviationSuggestions": true,
         "emmet.showSuggestionsAsSnippets": true,
-        "vscode-erb-beautify.executePath": "/usr/local/rvm/gems/ruby-3.2.2/wrappers/htmlbeautifier",
+        "vscode-erb-beautify.executePath": "/usr/local/rvm/gems/ruby-3.3.0/wrappers/htmlbeautifier",
         "vscode-erb-beautify.useBundler": false,
-        "erb.erb-lint.executePath": "/usr/local/rvm/gems/ruby-3.2.2/wrappers/",
+        "erb.erb-lint.executePath": "/usr/local/rvm/gems/ruby-3.3.0/wrappers/",
         "solargraph.formatting": true,
-        "ruby.rubocop.executePath": "/usr/local/rvm/gems/ruby-3.2.2/wrappers/",
+        "ruby.rubocop.executePath": "/usr/local/rvm/gems/ruby-3.3.0/wrappers/",
         "ruby.rubocop.onSave": true,
         "ruby.lint": {
           "rubocop": {
@@ -79,8 +71,8 @@
             "rails": true
           }
         },
-        "solargraph.commandPath": "/usr/local/rvm/gems/ruby-3.2.2/wrappers/solargraph",
-        "rufo.exe": "/usr/local/rvm/gems/ruby-3.2.2/wrappers/rufo",
+        "solargraph.commandPath": "/usr/local/rvm/gems/ruby-3.3.0/wrappers/solargraph",
+        "rufo.exe": "/usr/local/rvm/gems/ruby-3.3.0/wrappers/rufo",
         "rufo.useBundler": false,
         "terminal.integrated.shellIntegration.history": 10000,
         "terminal.integrated.scrollback": 10000,
@@ -104,45 +96,7 @@
         "[erb]": {
           "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
           "editor.formatOnSave": true
-        },
-        "sqltools.connections": [
-          {
-            "name": "Bazaruto Business",
-            "driver": "PostgreSQL",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "database": "bazaruto_dev",
-            "username": "vscode"
-          },
-          {
-            "name": "Bazaruto Business Test",
-            "driver": "PostgreSQL",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "database": "bazaruto_test",
-            "username": "vscode"
-          },
-          {
-            "name": "Umhambi Dev",
-            "driver": "PostgreSQL",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "database": "umhambi_dev",
-            "username": "vscode"
-          },
-          {
-            "name": "Umhambi Test",
-            "driver": "PostgreSQL",
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "database": "umhambi_test",
-            "username": "vscode"
-          }
-        ]
+        }
       }
     }
   },
