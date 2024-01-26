@@ -1,0 +1,49 @@
+image:
+  file: .gitpod/.gitpod.Dockerfile
+tasks:
+  - name: Initial setup
+    init: |
+      docker-compose -f .gitpod/docker-compose.yml pull
+  - name: Start environment
+    command: |
+      docker-compose -f .gitpod/docker-compose.yml up -d
+      exec zsh
+      bash -lic 'true'
+vscode:
+  extensions:
+    - aki77.rails-db-schema
+    - aki77.rails-i18n
+    - aki77.rails-routes
+    - albert.tabout
+    - aliariff.auto-add-brackets
+    - benspaulding.procfile
+    - bung87.rails
+    - castwide.solargraph
+    - christian-kohler.path-intellisense
+    - CraigMaslowski.erb
+    - eriklynd.json-tools
+    - esbenp.prettier-vscode
+    - GauravSharma.colorized-access-modifier
+    - hbenl.vscode-test-explorer
+    - jnbt.vscode-rufo
+    - kaiwood.endwise
+    - kosai106.ruby-syntax-replacer
+    - makicamel.rails-routes-navigator
+    - MateuszDrewniak.ruby-test-runner
+    - meganrogge.template-string-converter
+    - miguel-savignano.ruby-symbols
+    - misogi.ruby-rubocop
+    - mrmlnc.vscode-duplicate
+    - ms-vscode.test-adapter-converter
+    - mtxr.sqltools
+    - mtxr.sqltools-driver-pg
+    - qcz.text-power-tools
+    - redhat.vscode-yaml
+    - sarahridge.vscode-rails-syntax
+    - shardulm94.trailing-spaces
+    - Shopify.ruby-lsp
+    - streetsidesoftware.code-spell-checker
+    - tavo.rails-schema
+    - yaboojp.simple-rails-navigator
+gitConfig:
+  safe.directory: "/workspace"

@@ -21,7 +21,6 @@
         "castwide.solargraph",
         "christian-kohler.path-intellisense",
         "CraigMaslowski.erb",
-        "EditorConfig.EditorConfig",
         "eriklynd.json-tools",
         "esbenp.prettier-vscode",
         "GauravSharma.colorized-access-modifier",
@@ -48,8 +47,7 @@
         "Shopify.ruby-lsp",
         "streetsidesoftware.code-spell-checker",
         "tavo.rails-schema",
-        "yaboojp.simple-rails-navigator",
-        "oderwat.indent-rainbow"
+        "yaboojp.simple-rails-navigator"
       ],
       "settings": {
         "emmet.includeLanguages": {
