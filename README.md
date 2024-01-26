@@ -12,3 +12,4 @@ Devcontainer configuration with a ready to run environment for VSCode
 * Postgres database server
 * Postgres client
 
+## Setting up a rails application with Vite
