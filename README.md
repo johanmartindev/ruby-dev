@@ -12,4 +12,6 @@ Devcontainer configuration with a ready to run environment for VSCode
 * Postgres database server
 * Postgres client
 
-## Setting up a rails application with Vite
+## Basic Rails API Application
+* Create a new Rails API application
+  * `rails new <app_name> --api`
