@@ -1,9 +1,12 @@
-version: '3'
+version: '3.8'
 services:
   app:
     build:
-      context: ..
+      context: .
       dockerfile: .devcontainer/Dockerfile
+      args:
+        VARIANT: "3"
+        NODE_VERSION: "lts"
     volumes:
       - ..:/workspace:cached
       - vscode-extension-data:/vscode/.vscode-server/extensions
@@ -13,7 +16,7 @@ services:
     image: postgres:16
     restart: unless-stopped
     volumes:
-      - ../tmp/postgres-data:/var/lib/postgresql/data
+      - postgres-data:/var/lib/postgresql/data
       - ./create-db-user.sql:/docker-entrypoint-initdb.d/create-db-user.sql
     environment:
       POSTGRES_USER: postgres
