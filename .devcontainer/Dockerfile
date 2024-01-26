@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/devcontainers/ruby:${VARIANT}
 # NVM
 # [Choice] Node.js version: lts/*, 16, 14, 12, 10
 ARG NODE_VERSION="lts/*"
-ARG NODE_MODULES="typescript prettier @prettier/plugin-ruby foreman joplin"
+ARG NODE_MODULES="typescript prettier @prettier/plugin-ruby"
 RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION}" 2>&1
 RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g ${NODE_MODULES}" 2>&1
 
