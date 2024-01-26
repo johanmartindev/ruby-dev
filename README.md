@@ -1,5 +1,11 @@
-# Basic Ruby developer environement
+# Basic Ruby developer environment template
 This is a basic Ruby developer environment with Rails installed and access to Postgres. It's designed to either run as a Devcontainer or on GitPod
+## To Use
+* [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+1. Click the "Use this template" button
+1. Click the "Create repository from template" button
+1. Select the account to own the repository
+1. Give your repository a name
 ## Features
 * Vscode Ruby development extensions
 * RVM and NVM
