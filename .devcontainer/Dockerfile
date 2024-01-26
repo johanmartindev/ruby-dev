@@ -23,6 +23,6 @@ RUN mkdir -p /home/$USERNAME/.vscode-server/extensions \
     && chown -R $USERNAME \
     /home/$USERNAME/.vscode-server
 
-RUN gem install  bundler -N webdrivers -N solargraph -N solargraph-rails -N reline -N overcommit -N reek -N brakeman -N rubocop -N rubocop-performance -N rubocop-rails -N rubocop-faker -N rubocop-rspec -N ripper-tags -N better_errors -N debug -N binding_of_caller -N rufo -N scss_lint -N erb_lint -N htmlbeautifier -N pry -N
+RUN gem install bundler -N rails -N webdrivers -N solargraph -N solargraph-rails -N reline -N overcommit -N reek -N brakeman -N rubocop -N rubocop-performance -N rubocop-rails -N rubocop-faker -N rubocop-rspec -N ripper-tags -N better_errors -N debug -N binding_of_caller -N rufo -N scss_lint -N erb_lint -N htmlbeautifier -N pry -N
 
 # End of docker file
